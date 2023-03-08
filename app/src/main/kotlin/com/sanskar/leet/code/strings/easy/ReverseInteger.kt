@@ -2,7 +2,7 @@ package com.sanskar.leet.code.strings.easy
 
 class ReverseInteger {
     fun reverse(x: Int): Int {
-        
+
     }
 }
 
