@@ -16,7 +16,7 @@ class AllNumbersDisappeared {
 
 fun main() {
     val arr1 = intArrayOf(3, 2, 1)
-    val arr2 = intArrayOf(4,3,2,7,8,2,3,1)
+    val arr2 = intArrayOf(4, 3, 2, 7, 8, 2, 3, 1)
 
     val a = AllNumbersDisappeared()
     println(a.findDisappearedNumbers(arr1))
