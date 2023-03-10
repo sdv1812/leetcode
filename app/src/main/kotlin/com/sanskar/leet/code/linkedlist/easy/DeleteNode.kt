@@ -5,7 +5,7 @@ class DeleteNode(var head: ListNode) {
     fun deleteNode(node: ListNode?) {
         if (node == null) return
         if (node.next == null) return
-        node.value = node.next!!.value
+        node.`val` = node.next!!.`val`
         node.next = node.next!!.next
     }
 }
