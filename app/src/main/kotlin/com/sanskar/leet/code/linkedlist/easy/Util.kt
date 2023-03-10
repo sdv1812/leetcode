@@ -2,11 +2,11 @@ package com.sanskar.leet.code.linkedlist.easy
 
 fun printLinkedList(head: ListNode?) {
     var headcopy = head
-    while (headcopy != null) {
-        print("${headcopy.value} ->")
+    while (headcopy?.next != null) {
+        print("${headcopy.`val`} -> ")
         headcopy = headcopy.next
     }
-    println()
+    println(headcopy?.`val`)
 }
 
 fun createLinkedList(arr: IntArray): ListNode? {
